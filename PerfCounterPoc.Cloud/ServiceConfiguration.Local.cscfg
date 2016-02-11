@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="PerfCounterPoc.Cloud" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="4" osVersion="*" schemaVersion="2015-04.2.6">
+  <Role name="PerfCountersPOC.Cloud.Worker">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=perfcounterspoc;AccountKey=vygDu4na2PXqXaRx0HsODJTKuBlp6gpp9c6dphcOcnWt4O5wlETjV9IOvEM2X8694fc8ei34lpwW5J6XkzHYXg==" />
+    </ConfigurationSettings>
+  </Role>
+</ServiceConfiguration>
